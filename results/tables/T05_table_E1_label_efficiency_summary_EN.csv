@@ -1,0 +1,85 @@
+feature_set,algorithm,n_per_class,macro_F1_mean,macro_F1_sd,OA_mean
+S2-annual,kNN,5,0.8064,0.0353,0.8224
+S2-annual,LogReg,5,0.8045,0.0527,0.8177
+S2-annual,RF,5,0.7977,0.0411,0.8104
+S2-seasonal,kNN,5,0.7953,0.0508,0.8181
+S2-seasonal,LogReg,5,0.7886,0.0575,0.8175
+S2-seasonal,RF,5,0.8213,0.0698,0.8337
+AlphaEarth,kNN,5,0.9083,0.0141,0.9096
+AlphaEarth,LogReg,5,0.9089,0.0128,0.9087
+AlphaEarth,RF,5,0.9012,0.0142,0.9038
+AlphaEarth + S2-seasonal,kNN,5,0.9054,0.0148,0.9104
+AlphaEarth + S2-seasonal,LogReg,5,0.8927,0.019,0.8985
+AlphaEarth + S2-seasonal,RF,5,0.8974,0.0172,0.9
+S2-annual,kNN,10,0.8141,0.0244,0.8324
+S2-annual,LogReg,10,0.8293,0.0265,0.8422
+S2-annual,RF,10,0.8042,0.0236,0.8209
+S2-seasonal,kNN,10,0.8176,0.0447,0.8397
+S2-seasonal,LogReg,10,0.8047,0.0505,0.8305
+S2-seasonal,RF,10,0.8455,0.058,0.8584
+AlphaEarth,kNN,10,0.9163,0.0148,0.9168
+AlphaEarth,LogReg,10,0.9186,0.0123,0.919
+AlphaEarth,RF,10,0.9121,0.0087,0.9139
+AlphaEarth + S2-seasonal,kNN,10,0.9108,0.0118,0.9149
+AlphaEarth + S2-seasonal,LogReg,10,0.9047,0.0156,0.9092
+AlphaEarth + S2-seasonal,RF,10,0.9061,0.011,0.909
+S2-annual,kNN,25,0.8287,0.0171,0.8443
+S2-annual,LogReg,25,0.84,0.014,0.8535
+S2-annual,RF,25,0.8148,0.0153,0.8301
+S2-seasonal,kNN,25,0.8601,0.0302,0.871
+S2-seasonal,LogReg,25,0.8423,0.0442,0.8603
+S2-seasonal,RF,25,0.8811,0.0178,0.8849
+AlphaEarth,kNN,25,0.9302,0.012,0.929
+AlphaEarth,LogReg,25,0.9223,0.0124,0.9198
+AlphaEarth,RF,25,0.9197,0.0089,0.92
+AlphaEarth + S2-seasonal,kNN,25,0.9315,0.0173,0.9318
+AlphaEarth + S2-seasonal,LogReg,25,0.917,0.0093,0.9156
+AlphaEarth + S2-seasonal,RF,25,0.9173,0.0105,0.9188
+S2-annual,kNN,50,0.8346,0.0162,0.8522
+S2-annual,LogReg,50,0.8508,0.0078,0.8625
+S2-annual,RF,50,0.8322,0.0117,0.8484
+S2-seasonal,kNN,50,0.8769,0.0258,0.8846
+S2-seasonal,LogReg,50,0.8667,0.0217,0.8793
+S2-seasonal,RF,50,0.8891,0.0188,0.8908
+AlphaEarth,kNN,50,0.9425,0.0151,0.9412
+AlphaEarth,LogReg,50,0.9365,0.0183,0.936
+AlphaEarth,RF,50,0.9322,0.0115,0.9318
+AlphaEarth + S2-seasonal,kNN,50,0.9453,0.0091,0.9448
+AlphaEarth + S2-seasonal,LogReg,50,0.9345,0.0165,0.9339
+AlphaEarth + S2-seasonal,RF,50,0.9362,0.013,0.9362
+S2-annual,kNN,100,0.8511,0.0108,0.867
+S2-annual,LogReg,100,0.8562,0.0063,0.868
+S2-annual,RF,100,0.8412,0.0125,0.8574
+S2-seasonal,kNN,100,0.899,0.0121,0.9026
+S2-seasonal,LogReg,100,0.8954,0.0319,0.9032
+S2-seasonal,RF,100,0.9013,0.0101,0.9036
+AlphaEarth,kNN,100,0.9362,0.0064,0.933
+AlphaEarth,LogReg,100,0.9368,0.0222,0.9348
+AlphaEarth,RF,100,0.9313,0.0054,0.9296
+AlphaEarth + S2-seasonal,kNN,100,0.9419,0.0106,0.9388
+AlphaEarth + S2-seasonal,LogReg,100,0.9342,0.0238,0.932
+AlphaEarth + S2-seasonal,RF,100,0.9361,0.0097,0.9352
+S2-annual,kNN,250,0.8488,0.0116,0.8644
+S2-annual,LogReg,250,0.859,0.0032,0.8704
+S2-annual,RF,250,0.8446,0.0078,0.8608
+S2-seasonal,kNN,250,0.9095,0.007,0.9122
+S2-seasonal,LogReg,250,0.9153,0.0079,0.9179
+S2-seasonal,RF,250,0.9063,0.0078,0.9083
+AlphaEarth,kNN,250,0.943,0.0165,0.9412
+AlphaEarth,LogReg,250,0.9388,0.0162,0.9362
+AlphaEarth,RF,250,0.9375,0.0055,0.9354
+AlphaEarth + S2-seasonal,kNN,250,0.9501,0.0154,0.9488
+AlphaEarth + S2-seasonal,LogReg,250,0.9362,0.0131,0.9324
+AlphaEarth + S2-seasonal,RF,250,0.9401,0.009,0.9386
+S2-annual,kNN,all,0.8433,,0.8593
+S2-annual,LogReg,all,0.8591,,0.8699
+S2-annual,RF,all,0.846,,0.8614
+S2-seasonal,kNN,all,0.9122,,0.9147
+S2-seasonal,LogReg,all,0.9181,,0.9211
+S2-seasonal,RF,all,0.9077,,0.9104
+AlphaEarth,kNN,all,0.9471,,0.9467
+AlphaEarth,LogReg,all,0.9431,,0.9403
+AlphaEarth,RF,all,0.9321,,0.9296
+AlphaEarth + S2-seasonal,kNN,all,0.9394,,0.9382
+AlphaEarth + S2-seasonal,LogReg,all,0.9384,,0.936
+AlphaEarth + S2-seasonal,RF,all,0.9396,,0.9382

@@ -1,0 +1,11 @@
+block,class,pixels_10m,area_ha,used
+C,Forest,2477597,24776.0,yes
+C,Savanna / shrub / grass,85261,852.6,yes
+C,Wetland,41729,417.3,yes
+C,Cleared land,434331,4343.3,yes
+C,Cropland,7,0.1,no
+D,Forest,2483791,24837.9,yes
+D,Savanna / shrub / grass,183575,1835.8,yes
+D,Wetland,534745,5347.5,yes
+D,Cleared land,204851,2048.5,yes
+D,Cropland,0,0.0,no

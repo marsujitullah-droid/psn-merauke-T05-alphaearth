@@ -1,0 +1,651 @@
+{
+  "tahun_embedding": 2025,
+  "tahun_kehilangan_untuk_kelas_dibuka": [
+    2024,
+    2025
+  ],
+  "kelas_dipakai": [
+    "Hutan",
+    "Savana / semak / rumput",
+    "Lahan basah",
+    "Lahan dibuka"
+  ],
+  "n_sampel_per_blok": {
+    "C": 2000,
+    "D": 2000
+  },
+  "n_latih_C": 1531,
+  "n_uji_C": 469,
+  "E1_semua_label": [
+    {
+      "set_fitur": "AlphaEarth",
+      "algoritma": "kNN",
+      "F1_makro_rata2": 0.9471
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "algoritma": "LogReg",
+      "F1_makro_rata2": 0.9431
+    },
+    {
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "RF",
+      "F1_makro_rata2": 0.9396
+    },
+    {
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "kNN",
+      "F1_makro_rata2": 0.9394
+    },
+    {
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "LogReg",
+      "F1_makro_rata2": 0.9384
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "algoritma": "RF",
+      "F1_makro_rata2": 0.9321
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "algoritma": "LogReg",
+      "F1_makro_rata2": 0.9181
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "algoritma": "kNN",
+      "F1_makro_rata2": 0.9122
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "algoritma": "RF",
+      "F1_makro_rata2": 0.9077
+    },
+    {
+      "set_fitur": "S2-tahunan",
+      "algoritma": "LogReg",
+      "F1_makro_rata2": 0.8591
+    },
+    {
+      "set_fitur": "S2-tahunan",
+      "algoritma": "RF",
+      "F1_makro_rata2": 0.846
+    },
+    {
+      "set_fitur": "S2-tahunan",
+      "algoritma": "kNN",
+      "F1_makro_rata2": 0.8433
+    }
+  ],
+  "E1_n10": [
+    {
+      "set_fitur": "S2-tahunan",
+      "algoritma": "kNN",
+      "F1_makro_rata2": 0.8141,
+      "F1_makro_sd": 0.0244
+    },
+    {
+      "set_fitur": "S2-tahunan",
+      "algoritma": "LogReg",
+      "F1_makro_rata2": 0.8293,
+      "F1_makro_sd": 0.0265
+    },
+    {
+      "set_fitur": "S2-tahunan",
+      "algoritma": "RF",
+      "F1_makro_rata2": 0.8042,
+      "F1_makro_sd": 0.0236
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "algoritma": "kNN",
+      "F1_makro_rata2": 0.8176,
+      "F1_makro_sd": 0.0447
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "algoritma": "LogReg",
+      "F1_makro_rata2": 0.8047,
+      "F1_makro_sd": 0.0505
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "algoritma": "RF",
+      "F1_makro_rata2": 0.8455,
+      "F1_makro_sd": 0.058
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "algoritma": "kNN",
+      "F1_makro_rata2": 0.9163,
+      "F1_makro_sd": 0.0148
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "algoritma": "LogReg",
+      "F1_makro_rata2": 0.9186,
+      "F1_makro_sd": 0.0123
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "algoritma": "RF",
+      "F1_makro_rata2": 0.9121,
+      "F1_makro_sd": 0.0087
+    },
+    {
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "kNN",
+      "F1_makro_rata2": 0.9108,
+      "F1_makro_sd": 0.0118
+    },
+    {
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "LogReg",
+      "F1_makro_rata2": 0.9047,
+      "F1_makro_sd": 0.0156
+    },
+    {
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "RF",
+      "F1_makro_rata2": 0.9061,
+      "F1_makro_sd": 0.011
+    }
+  ],
+  "E1_label_setara_AE10": [
+    {
+      "algoritma": "kNN",
+      "set_fitur": "S2-tahunan",
+      "F1_AE_n10": 0.9163,
+      "n_per_kelas": "> 250",
+      "rasio_label": "> 25"
+    },
+    {
+      "algoritma": "kNN",
+      "set_fitur": "S2-musiman",
+      "F1_AE_n10": 0.9163,
+      "n_per_kelas": "> 250",
+      "rasio_label": "> 25"
+    },
+    {
+      "algoritma": "LogReg",
+      "set_fitur": "S2-tahunan",
+      "F1_AE_n10": 0.9186,
+      "n_per_kelas": "> 250",
+      "rasio_label": "> 25"
+    },
+    {
+      "algoritma": "LogReg",
+      "set_fitur": "S2-musiman",
+      "F1_AE_n10": 0.9186,
+      "n_per_kelas": "> 250",
+      "rasio_label": "> 25"
+    },
+    {
+      "algoritma": "RF",
+      "set_fitur": "S2-tahunan",
+      "F1_AE_n10": 0.9121,
+      "n_per_kelas": "> 250",
+      "rasio_label": "> 25"
+    },
+    {
+      "algoritma": "RF",
+      "set_fitur": "S2-musiman",
+      "F1_AE_n10": 0.9121,
+      "n_per_kelas": "> 250",
+      "rasio_label": "> 25"
+    }
+  ],
+  "E2_transfer": [
+    {
+      "arah": "C → D",
+      "set_fitur": "S2-tahunan",
+      "algoritma": "kNN",
+      "F1_dalam_blok": 0.8433,
+      "F1_transfer": 0.45,
+      "penurunan": 0.3933
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "S2-tahunan",
+      "algoritma": "LogReg",
+      "F1_dalam_blok": 0.8591,
+      "F1_transfer": 0.4916,
+      "penurunan": 0.3675
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "S2-tahunan",
+      "algoritma": "RF",
+      "F1_dalam_blok": 0.846,
+      "F1_transfer": 0.497,
+      "penurunan": 0.3491
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "S2-musiman",
+      "algoritma": "kNN",
+      "F1_dalam_blok": 0.9122,
+      "F1_transfer": 0.6408,
+      "penurunan": 0.2714
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "S2-musiman",
+      "algoritma": "LogReg",
+      "F1_dalam_blok": 0.9181,
+      "F1_transfer": 0.6942,
+      "penurunan": 0.2239
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "S2-musiman",
+      "algoritma": "RF",
+      "F1_dalam_blok": 0.9077,
+      "F1_transfer": 0.6316,
+      "penurunan": 0.2762
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "AlphaEarth",
+      "algoritma": "kNN",
+      "F1_dalam_blok": 0.9471,
+      "F1_transfer": 0.7961,
+      "penurunan": 0.151
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "AlphaEarth",
+      "algoritma": "LogReg",
+      "F1_dalam_blok": 0.9431,
+      "F1_transfer": 0.5862,
+      "penurunan": 0.3569
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "AlphaEarth",
+      "algoritma": "RF",
+      "F1_dalam_blok": 0.9321,
+      "F1_transfer": 0.7116,
+      "penurunan": 0.2204
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "kNN",
+      "F1_dalam_blok": 0.9394,
+      "F1_transfer": 0.7782,
+      "penurunan": 0.1612
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "LogReg",
+      "F1_dalam_blok": 0.9384,
+      "F1_transfer": 0.6277,
+      "penurunan": 0.3107
+    },
+    {
+      "arah": "C → D",
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "RF",
+      "F1_dalam_blok": 0.9396,
+      "F1_transfer": 0.6991,
+      "penurunan": 0.2404
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "S2-tahunan",
+      "algoritma": "kNN",
+      "F1_dalam_blok": 0.6954,
+      "F1_transfer": 0.395,
+      "penurunan": 0.3004
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "S2-tahunan",
+      "algoritma": "LogReg",
+      "F1_dalam_blok": 0.6956,
+      "F1_transfer": 0.4518,
+      "penurunan": 0.2438
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "S2-tahunan",
+      "algoritma": "RF",
+      "F1_dalam_blok": 0.7504,
+      "F1_transfer": 0.4019,
+      "penurunan": 0.3485
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "S2-musiman",
+      "algoritma": "kNN",
+      "F1_dalam_blok": 0.749,
+      "F1_transfer": 0.6197,
+      "penurunan": 0.1294
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "S2-musiman",
+      "algoritma": "LogReg",
+      "F1_dalam_blok": 0.7429,
+      "F1_transfer": 0.6817,
+      "penurunan": 0.0612
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "S2-musiman",
+      "algoritma": "RF",
+      "F1_dalam_blok": 0.7882,
+      "F1_transfer": 0.6771,
+      "penurunan": 0.1111
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "AlphaEarth",
+      "algoritma": "kNN",
+      "F1_dalam_blok": 0.8864,
+      "F1_transfer": 0.8172,
+      "penurunan": 0.0692
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "AlphaEarth",
+      "algoritma": "LogReg",
+      "F1_dalam_blok": 0.9177,
+      "F1_transfer": 0.7593,
+      "penurunan": 0.1584
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "AlphaEarth",
+      "algoritma": "RF",
+      "F1_dalam_blok": 0.8972,
+      "F1_transfer": 0.8846,
+      "penurunan": 0.0126
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "kNN",
+      "F1_dalam_blok": 0.8881,
+      "F1_transfer": 0.8036,
+      "penurunan": 0.0844
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "LogReg",
+      "F1_dalam_blok": 0.9107,
+      "F1_transfer": 0.654,
+      "penurunan": 0.2567
+    },
+    {
+      "arah": "D → C",
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "algoritma": "RF",
+      "F1_dalam_blok": 0.9034,
+      "F1_transfer": 0.8229,
+      "penurunan": 0.0805
+    }
+  ],
+  "E2_mcnemar": [
+    {
+      "arah": "C → D",
+      "algoritma": "kNN",
+      "pasangan": "AlphaEarth vs S2-musiman",
+      "n01": 427,
+      "n10": 113,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "C → D",
+      "algoritma": "kNN",
+      "pasangan": "AlphaEarth vs S2-tahunan",
+      "n01": 755,
+      "n10": 87,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "C → D",
+      "algoritma": "kNN",
+      "pasangan": "AlphaEarth + S2-musiman vs AlphaEarth",
+      "n01": 49,
+      "n10": 84,
+      "p_nilai": 0.00305,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "C → D",
+      "algoritma": "LogReg",
+      "pasangan": "AlphaEarth vs S2-musiman",
+      "n01": 273,
+      "n10": 385,
+      "p_nilai": 1e-05,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "C → D",
+      "algoritma": "LogReg",
+      "pasangan": "AlphaEarth vs S2-tahunan",
+      "n01": 479,
+      "n10": 212,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "C → D",
+      "algoritma": "LogReg",
+      "pasangan": "AlphaEarth + S2-musiman vs AlphaEarth",
+      "n01": 87,
+      "n10": 42,
+      "p_nilai": 9e-05,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "C → D",
+      "algoritma": "RF",
+      "pasangan": "AlphaEarth vs S2-musiman",
+      "n01": 367,
+      "n10": 202,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "C → D",
+      "algoritma": "RF",
+      "pasangan": "AlphaEarth vs S2-tahunan",
+      "n01": 578,
+      "n10": 154,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "C → D",
+      "algoritma": "RF",
+      "pasangan": "AlphaEarth + S2-musiman vs AlphaEarth",
+      "n01": 45,
+      "n10": 66,
+      "p_nilai": 0.05716,
+      "signifikan": "tidak"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "kNN",
+      "pasangan": "AlphaEarth vs S2-musiman",
+      "n01": 466,
+      "n10": 105,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "kNN",
+      "pasangan": "AlphaEarth vs S2-tahunan",
+      "n01": 867,
+      "n10": 44,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "kNN",
+      "pasangan": "AlphaEarth + S2-musiman vs AlphaEarth",
+      "n01": 121,
+      "n10": 141,
+      "p_nilai": 0.24041,
+      "signifikan": "tidak"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "LogReg",
+      "pasangan": "AlphaEarth vs S2-musiman",
+      "n01": 327,
+      "n10": 204,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "LogReg",
+      "pasangan": "AlphaEarth vs S2-tahunan",
+      "n01": 747,
+      "n10": 158,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "LogReg",
+      "pasangan": "AlphaEarth + S2-musiman vs AlphaEarth",
+      "n01": 25,
+      "n10": 204,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "RF",
+      "pasangan": "AlphaEarth vs S2-musiman",
+      "n01": 421,
+      "n10": 44,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "RF",
+      "pasangan": "AlphaEarth vs S2-tahunan",
+      "n01": 922,
+      "n10": 16,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    },
+    {
+      "arah": "D → C",
+      "algoritma": "RF",
+      "pasangan": "AlphaEarth + S2-musiman vs AlphaEarth",
+      "n01": 16,
+      "n10": 126,
+      "p_nilai": 0.0,
+      "signifikan": "ya"
+    }
+  ],
+  "E3_klasterisasi": [
+    {
+      "set_fitur": "S2-tahunan",
+      "ARI": 0.2863,
+      "ARI_sd": 0.0017,
+      "NMI": 0.3064,
+      "NMI_sd": 0.0045
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "ARI": 0.327,
+      "ARI_sd": 0.0003,
+      "NMI": 0.3705,
+      "NMI_sd": 0.0003
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "ARI": 0.5006,
+      "ARI_sd": 0.0,
+      "NMI": 0.5826,
+      "NMI_sd": 0.0
+    },
+    {
+      "set_fitur": "AlphaEarth + S2-musiman",
+      "ARI": 0.4732,
+      "ARI_sd": 0.0,
+      "NMI": 0.5387,
+      "NMI_sd": 0.0
+    }
+  ],
+  "luas_peta_blokC": [
+    {
+      "set_fitur": "S2-musiman",
+      "kelas": "Hutan",
+      "luas_peta_ha": 28883.0
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "kelas": "Savana / semak / rumput",
+      "luas_peta_ha": 2533.0
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "kelas": "Lahan basah",
+      "luas_peta_ha": 2183.0
+    },
+    {
+      "set_fitur": "S2-musiman",
+      "kelas": "Lahan dibuka",
+      "luas_peta_ha": 5522.0
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "kelas": "Hutan",
+      "luas_peta_ha": 31023.0
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "kelas": "Savana / semak / rumput",
+      "luas_peta_ha": 1668.0
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "kelas": "Lahan basah",
+      "luas_peta_ha": 1271.0
+    },
+    {
+      "set_fitur": "AlphaEarth",
+      "kelas": "Lahan dibuka",
+      "luas_peta_ha": 6069.0
+    }
+  ],
+  "kandidat_blok": [
+    {
+      "peringkat": 1,
+      "blok": "A",
+      "loss_2024_2025_ha": 7935.9
+    },
+    {
+      "peringkat": 2,
+      "blok": "B",
+      "loss_2024_2025_ha": 6960.6
+    },
+    {
+      "peringkat": 3,
+      "blok": "C",
+      "loss_2024_2025_ha": 4737.3
+    },
+    {
+      "peringkat": 4,
+      "blok": "D",
+      "loss_2024_2025_ha": 2743.7
+    }
+  ]
+}

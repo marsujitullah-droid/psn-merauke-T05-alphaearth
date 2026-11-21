@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "AlphaEarth foundation-model embeddings vs Sentinel-2 spectral features: label efficiency and cross-region transfer in the Merauke PSN area (T05): code and data"
+type: software
+authors:
+  - family-names: "Marsujitullah"
+    affiliation: "[INSTITUSI]"
+version: "1.0.0"
+license: MIT
+keywords:
+  - foundation model
+  - AlphaEarth
+  - embeddings
+  - label efficiency
+  - Sentinel-2
+  - Merauke

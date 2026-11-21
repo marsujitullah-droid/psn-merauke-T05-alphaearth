@@ -1,0 +1,733 @@
+feature_set,algorithm,n_per_class,repeat,macro_F1,OA
+S2-annual,kNN,5,1,0.7772,0.8124
+S2-annual,LogReg,5,1,0.8161,0.8337
+S2-annual,RF,5,1,0.7851,0.806
+S2-seasonal,kNN,5,1,0.7645,0.7974
+S2-seasonal,LogReg,5,1,0.8712,0.8657
+S2-seasonal,RF,5,1,0.8651,0.8635
+AlphaEarth,kNN,5,1,0.9103,0.9147
+AlphaEarth,LogReg,5,1,0.9089,0.9104
+AlphaEarth,RF,5,1,0.9024,0.9062
+AlphaEarth + S2-seasonal,kNN,5,1,0.909,0.9126
+AlphaEarth + S2-seasonal,LogReg,5,1,0.9122,0.9126
+AlphaEarth + S2-seasonal,RF,5,1,0.9115,0.9126
+S2-annual,kNN,5,2,0.8345,0.8507
+S2-annual,LogReg,5,2,0.862,0.8678
+S2-annual,RF,5,2,0.8556,0.8614
+S2-seasonal,kNN,5,2,0.8544,0.8635
+S2-seasonal,LogReg,5,2,0.8754,0.8763
+S2-seasonal,RF,5,2,0.8599,0.855
+AlphaEarth,kNN,5,2,0.9108,0.9126
+AlphaEarth,LogReg,5,2,0.9149,0.9147
+AlphaEarth,RF,5,2,0.915,0.9147
+AlphaEarth + S2-seasonal,kNN,5,2,0.9098,0.9126
+AlphaEarth + S2-seasonal,LogReg,5,2,0.9091,0.9083
+AlphaEarth + S2-seasonal,RF,5,2,0.9081,0.9083
+S2-annual,kNN,5,3,0.7702,0.7932
+S2-annual,LogReg,5,3,0.7327,0.7612
+S2-annual,RF,5,3,0.7022,0.7377
+S2-seasonal,kNN,5,3,0.8556,0.8635
+S2-seasonal,LogReg,5,3,0.8309,0.8422
+S2-seasonal,RF,5,3,0.8564,0.8593
+AlphaEarth,kNN,5,3,0.9049,0.8998
+AlphaEarth,LogReg,5,3,0.892,0.8827
+AlphaEarth,RF,5,3,0.9158,0.9147
+AlphaEarth + S2-seasonal,kNN,5,3,0.9117,0.9126
+AlphaEarth + S2-seasonal,LogReg,5,3,0.883,0.8763
+AlphaEarth + S2-seasonal,RF,5,3,0.8954,0.8913
+S2-annual,kNN,5,4,0.8303,0.8443
+S2-annual,LogReg,5,4,0.8237,0.8358
+S2-annual,RF,5,4,0.829,0.8316
+S2-seasonal,kNN,5,4,0.8516,0.8593
+S2-seasonal,LogReg,5,4,0.7623,0.8017
+S2-seasonal,RF,5,4,0.8635,0.8678
+AlphaEarth,kNN,5,4,0.9074,0.9083
+AlphaEarth,LogReg,5,4,0.9062,0.9062
+AlphaEarth,RF,5,4,0.8954,0.8955
+AlphaEarth + S2-seasonal,kNN,5,4,0.9223,0.9254
+AlphaEarth + S2-seasonal,LogReg,5,4,0.8983,0.9019
+AlphaEarth + S2-seasonal,RF,5,4,0.8956,0.8977
+S2-annual,kNN,5,5,0.8167,0.8316
+S2-annual,LogReg,5,5,0.8253,0.838
+S2-annual,RF,5,5,0.7964,0.8081
+S2-seasonal,kNN,5,5,0.8023,0.8252
+S2-seasonal,LogReg,5,5,0.7661,0.7974
+S2-seasonal,RF,5,5,0.8604,0.855
+AlphaEarth,kNN,5,5,0.8935,0.8955
+AlphaEarth,LogReg,5,5,0.899,0.8998
+AlphaEarth,RF,5,5,0.8979,0.8998
+AlphaEarth + S2-seasonal,kNN,5,5,0.9135,0.9232
+AlphaEarth + S2-seasonal,LogReg,5,5,0.8871,0.8913
+AlphaEarth + S2-seasonal,RF,5,5,0.9008,0.9019
+S2-annual,kNN,5,6,0.7388,0.7633
+S2-annual,LogReg,5,6,0.6936,0.7143
+S2-annual,RF,5,6,0.7772,0.791
+S2-seasonal,kNN,5,6,0.6952,0.7399
+S2-seasonal,LogReg,5,6,0.7333,0.7868
+S2-seasonal,RF,5,6,0.7218,0.7761
+AlphaEarth,kNN,5,6,0.9017,0.9041
+AlphaEarth,LogReg,5,6,0.9025,0.9062
+AlphaEarth,RF,5,6,0.8972,0.8998
+AlphaEarth + S2-seasonal,kNN,5,6,0.8766,0.8891
+AlphaEarth + S2-seasonal,LogReg,5,6,0.8643,0.8891
+AlphaEarth + S2-seasonal,RF,5,6,0.8554,0.8699
+S2-annual,kNN,5,7,0.8393,0.8443
+S2-annual,LogReg,5,7,0.7976,0.806
+S2-annual,RF,5,7,0.792,0.7996
+S2-seasonal,kNN,5,7,0.7783,0.8124
+S2-seasonal,LogReg,5,7,0.7811,0.8188
+S2-seasonal,RF,5,7,0.7772,0.8038
+AlphaEarth,kNN,5,7,0.9455,0.9488
+AlphaEarth,LogReg,5,7,0.9014,0.9041
+AlphaEarth,RF,5,7,0.8882,0.8977
+AlphaEarth + S2-seasonal,kNN,5,7,0.9051,0.9126
+AlphaEarth + S2-seasonal,LogReg,5,7,0.8635,0.8763
+AlphaEarth + S2-seasonal,RF,5,7,0.9036,0.9041
+S2-annual,kNN,5,8,0.8486,0.855
+S2-annual,LogReg,5,8,0.8508,0.8529
+S2-annual,RF,5,8,0.8298,0.8294
+S2-seasonal,kNN,5,8,0.8029,0.8316
+S2-seasonal,LogReg,5,8,0.7869,0.8145
+S2-seasonal,RF,5,8,0.8462,0.8422
+AlphaEarth,kNN,5,8,0.8985,0.9019
+AlphaEarth,LogReg,5,8,0.9056,0.9041
+AlphaEarth,RF,5,8,0.8733,0.8785
+AlphaEarth + S2-seasonal,kNN,5,8,0.8873,0.8955
+AlphaEarth + S2-seasonal,LogReg,5,8,0.8859,0.8913
+AlphaEarth + S2-seasonal,RF,5,8,0.8838,0.887
+S2-annual,kNN,5,9,0.7967,0.8166
+S2-annual,LogReg,5,9,0.8046,0.8166
+S2-annual,RF,5,9,0.8071,0.8209
+S2-seasonal,kNN,5,9,0.7925,0.8188
+S2-seasonal,LogReg,5,9,0.6922,0.7399
+S2-seasonal,RF,5,9,0.6807,0.7335
+AlphaEarth,kNN,5,9,0.9035,0.9041
+AlphaEarth,LogReg,5,9,0.9371,0.936
+AlphaEarth,RF,5,9,0.9212,0.9211
+AlphaEarth + S2-seasonal,kNN,5,9,0.9228,0.9254
+AlphaEarth + S2-seasonal,LogReg,5,9,0.9142,0.9211
+AlphaEarth + S2-seasonal,RF,5,9,0.9063,0.9104
+S2-annual,kNN,5,10,0.8122,0.8124
+S2-annual,LogReg,5,10,0.8385,0.8507
+S2-annual,RF,5,10,0.8027,0.8188
+S2-seasonal,kNN,5,10,0.7552,0.7697
+S2-seasonal,LogReg,5,10,0.7865,0.8316
+S2-seasonal,RF,5,10,0.8821,0.8806
+AlphaEarth,kNN,5,10,0.9067,0.9062
+AlphaEarth,LogReg,5,10,0.9209,0.9232
+AlphaEarth,RF,5,10,0.9051,0.9104
+AlphaEarth + S2-seasonal,kNN,5,10,0.8957,0.8955
+AlphaEarth + S2-seasonal,LogReg,5,10,0.9091,0.9168
+AlphaEarth + S2-seasonal,RF,5,10,0.9138,0.9168
+S2-annual,kNN,10,1,0.8356,0.8465
+S2-annual,LogReg,10,1,0.8455,0.8529
+S2-annual,RF,10,1,0.8312,0.8443
+S2-seasonal,kNN,10,1,0.8906,0.8913
+S2-seasonal,LogReg,10,1,0.8532,0.8571
+S2-seasonal,RF,10,1,0.8837,0.8849
+AlphaEarth,kNN,10,1,0.908,0.9062
+AlphaEarth,LogReg,10,1,0.9096,0.9147
+AlphaEarth,RF,10,1,0.9119,0.9168
+AlphaEarth + S2-seasonal,kNN,10,1,0.9141,0.9147
+AlphaEarth + S2-seasonal,LogReg,10,1,0.8972,0.9041
+AlphaEarth + S2-seasonal,RF,10,1,0.9119,0.9147
+S2-annual,kNN,10,2,0.8359,0.855
+S2-annual,LogReg,10,2,0.8541,0.8678
+S2-annual,RF,10,2,0.8062,0.8273
+S2-seasonal,kNN,10,2,0.7994,0.8209
+S2-seasonal,LogReg,10,2,0.8233,0.8358
+S2-seasonal,RF,10,2,0.8593,0.8614
+AlphaEarth,kNN,10,2,0.9127,0.9126
+AlphaEarth,LogReg,10,2,0.9137,0.9147
+AlphaEarth,RF,10,2,0.9124,0.9147
+AlphaEarth + S2-seasonal,kNN,10,2,0.8897,0.8955
+AlphaEarth + S2-seasonal,LogReg,10,2,0.8918,0.8955
+AlphaEarth + S2-seasonal,RF,10,2,0.9165,0.9168
+S2-annual,kNN,10,3,0.8066,0.823
+S2-annual,LogReg,10,3,0.8026,0.806
+S2-annual,RF,10,3,0.8197,0.8337
+S2-seasonal,kNN,10,3,0.8759,0.8763
+S2-seasonal,LogReg,10,3,0.8443,0.8486
+S2-seasonal,RF,10,3,0.8605,0.8635
+AlphaEarth,kNN,10,3,0.9149,0.9147
+AlphaEarth,LogReg,10,3,0.9163,0.9168
+AlphaEarth,RF,10,3,0.9183,0.919
+AlphaEarth + S2-seasonal,kNN,10,3,0.91,0.9104
+AlphaEarth + S2-seasonal,LogReg,10,3,0.9057,0.9083
+AlphaEarth + S2-seasonal,RF,10,3,0.9082,0.9104
+S2-annual,kNN,10,4,0.8275,0.8401
+S2-annual,LogReg,10,4,0.8328,0.8465
+S2-annual,RF,10,4,0.8088,0.8209
+S2-seasonal,kNN,10,4,0.7689,0.806
+S2-seasonal,LogReg,10,4,0.7908,0.8316
+S2-seasonal,RF,10,4,0.8984,0.8977
+AlphaEarth,kNN,10,4,0.9093,0.9104
+AlphaEarth,LogReg,10,4,0.9368,0.9382
+AlphaEarth,RF,10,4,0.9104,0.9104
+AlphaEarth + S2-seasonal,kNN,10,4,0.8996,0.9104
+AlphaEarth + S2-seasonal,LogReg,10,4,0.8845,0.9062
+AlphaEarth + S2-seasonal,RF,10,4,0.9011,0.9019
+S2-annual,kNN,10,5,0.812,0.8294
+S2-annual,LogReg,10,5,0.8566,0.8678
+S2-annual,RF,10,5,0.8272,0.838
+S2-seasonal,kNN,10,5,0.8351,0.855
+S2-seasonal,LogReg,10,5,0.8407,0.8657
+S2-seasonal,RF,10,5,0.8826,0.8827
+AlphaEarth,kNN,10,5,0.9064,0.9062
+AlphaEarth,LogReg,10,5,0.9151,0.9126
+AlphaEarth,RF,10,5,0.916,0.9147
+AlphaEarth + S2-seasonal,kNN,10,5,0.9185,0.9211
+AlphaEarth + S2-seasonal,LogReg,10,5,0.9067,0.9083
+AlphaEarth + S2-seasonal,RF,10,5,0.9194,0.919
+S2-annual,kNN,10,6,0.8282,0.8529
+S2-annual,LogReg,10,6,0.8276,0.8486
+S2-annual,RF,10,6,0.7996,0.8273
+S2-seasonal,kNN,10,6,0.7605,0.7996
+S2-seasonal,LogReg,10,6,0.786,0.8273
+S2-seasonal,RF,10,6,0.7611,0.8145
+AlphaEarth,kNN,10,6,0.9382,0.936
+AlphaEarth,LogReg,10,6,0.924,0.9232
+AlphaEarth,RF,10,6,0.921,0.9254
+AlphaEarth + S2-seasonal,kNN,10,6,0.9195,0.9254
+AlphaEarth + S2-seasonal,LogReg,10,6,0.9296,0.9318
+AlphaEarth + S2-seasonal,RF,10,6,0.9009,0.9083
+S2-annual,kNN,10,7,0.7688,0.791
+S2-annual,LogReg,10,7,0.8038,0.8166
+S2-annual,RF,10,7,0.7934,0.8081
+S2-seasonal,kNN,10,7,0.7692,0.8017
+S2-seasonal,LogReg,10,7,0.723,0.7655
+S2-seasonal,RF,10,7,0.7308,0.7697
+AlphaEarth,kNN,10,7,0.898,0.8998
+AlphaEarth,LogReg,10,7,0.9023,0.9019
+AlphaEarth,RF,10,7,0.89,0.8934
+AlphaEarth + S2-seasonal,kNN,10,7,0.8996,0.9041
+AlphaEarth + S2-seasonal,LogReg,10,7,0.8874,0.887
+AlphaEarth + S2-seasonal,RF,10,7,0.8802,0.8827
+S2-annual,kNN,10,8,0.8009,0.8273
+S2-annual,LogReg,10,8,0.8109,0.8337
+S2-annual,RF,10,8,0.7944,0.823
+S2-seasonal,kNN,10,8,0.8156,0.8401
+S2-seasonal,LogReg,10,8,0.7515,0.8017
+S2-seasonal,RF,10,8,0.8743,0.8849
+AlphaEarth,kNN,10,8,0.9468,0.9488
+AlphaEarth,LogReg,10,8,0.9412,0.9424
+AlphaEarth,RF,10,8,0.9097,0.9126
+AlphaEarth + S2-seasonal,kNN,10,8,0.9276,0.9318
+AlphaEarth + S2-seasonal,LogReg,10,8,0.9286,0.9339
+AlphaEarth + S2-seasonal,RF,10,8,0.9086,0.9168
+S2-annual,kNN,10,9,0.7831,0.7996
+S2-annual,LogReg,10,9,0.791,0.8038
+S2-annual,RF,10,9,0.748,0.7612
+S2-seasonal,kNN,10,9,0.817,0.8443
+S2-seasonal,LogReg,10,9,0.7576,0.7932
+S2-seasonal,RF,10,9,0.8131,0.8273
+AlphaEarth,kNN,10,9,0.9144,0.9168
+AlphaEarth,LogReg,10,9,0.9086,0.9083
+AlphaEarth,RF,10,9,0.9123,0.9126
+AlphaEarth + S2-seasonal,kNN,10,9,0.9217,0.9254
+AlphaEarth + S2-seasonal,LogReg,10,9,0.9031,0.9041
+AlphaEarth + S2-seasonal,RF,10,9,0.9028,0.9062
+S2-annual,kNN,10,10,0.842,0.8593
+S2-annual,LogReg,10,10,0.8679,0.8785
+S2-annual,RF,10,10,0.8139,0.8252
+S2-seasonal,kNN,10,10,0.8435,0.8614
+S2-seasonal,LogReg,10,10,0.8764,0.8785
+S2-seasonal,RF,10,10,0.8911,0.8977
+AlphaEarth,kNN,10,10,0.9148,0.9168
+AlphaEarth,LogReg,10,10,0.9178,0.9168
+AlphaEarth,RF,10,10,0.9188,0.919
+AlphaEarth + S2-seasonal,kNN,10,10,0.9071,0.9104
+AlphaEarth + S2-seasonal,LogReg,10,10,0.9122,0.9126
+AlphaEarth + S2-seasonal,RF,10,10,0.9112,0.9126
+S2-annual,kNN,25,1,0.8268,0.8422
+S2-annual,LogReg,25,1,0.8494,0.8593
+S2-annual,RF,25,1,0.822,0.8358
+S2-seasonal,kNN,25,1,0.8867,0.8891
+S2-seasonal,LogReg,25,1,0.9074,0.9126
+S2-seasonal,RF,25,1,0.8913,0.8891
+AlphaEarth,kNN,25,1,0.9252,0.9232
+AlphaEarth,LogReg,25,1,0.9171,0.9147
+AlphaEarth,RF,25,1,0.9292,0.9275
+AlphaEarth + S2-seasonal,kNN,25,1,0.9262,0.9232
+AlphaEarth + S2-seasonal,LogReg,25,1,0.912,0.9126
+AlphaEarth + S2-seasonal,RF,25,1,0.921,0.9211
+S2-annual,kNN,25,2,0.8639,0.8763
+S2-annual,LogReg,25,2,0.8537,0.8678
+S2-annual,RF,25,2,0.8193,0.8358
+S2-seasonal,kNN,25,2,0.8684,0.8806
+S2-seasonal,LogReg,25,2,0.8889,0.8977
+S2-seasonal,RF,25,2,0.8968,0.8998
+AlphaEarth,kNN,25,2,0.9522,0.9531
+AlphaEarth,LogReg,25,2,0.9357,0.9339
+AlphaEarth,RF,25,2,0.9235,0.9254
+AlphaEarth + S2-seasonal,kNN,25,2,0.9495,0.9531
+AlphaEarth + S2-seasonal,LogReg,25,2,0.9223,0.9232
+AlphaEarth + S2-seasonal,RF,25,2,0.9151,0.919
+S2-annual,kNN,25,3,0.8307,0.8465
+S2-annual,LogReg,25,3,0.8544,0.8678
+S2-annual,RF,25,3,0.8262,0.8422
+S2-seasonal,kNN,25,3,0.8775,0.8721
+S2-seasonal,LogReg,25,3,0.8599,0.8678
+S2-seasonal,RF,25,3,0.8826,0.8934
+AlphaEarth,kNN,25,3,0.9341,0.9318
+AlphaEarth,LogReg,25,3,0.925,0.9168
+AlphaEarth,RF,25,3,0.9236,0.9232
+AlphaEarth + S2-seasonal,kNN,25,3,0.9356,0.9318
+AlphaEarth + S2-seasonal,LogReg,25,3,0.9165,0.9062
+AlphaEarth + S2-seasonal,RF,25,3,0.9298,0.9318
+S2-annual,kNN,25,4,0.8131,0.8294
+S2-annual,LogReg,25,4,0.8386,0.8529
+S2-annual,RF,25,4,0.7908,0.806
+S2-seasonal,kNN,25,4,0.8294,0.8507
+S2-seasonal,LogReg,25,4,0.7669,0.8145
+S2-seasonal,RF,25,4,0.8525,0.8614
+AlphaEarth,kNN,25,4,0.9174,0.9168
+AlphaEarth,LogReg,25,4,0.9024,0.9041
+AlphaEarth,RF,25,4,0.9106,0.9147
+AlphaEarth + S2-seasonal,kNN,25,4,0.927,0.9318
+AlphaEarth + S2-seasonal,LogReg,25,4,0.9089,0.9104
+AlphaEarth + S2-seasonal,RF,25,4,0.9006,0.9041
+S2-annual,kNN,25,5,0.8025,0.8188
+S2-annual,LogReg,25,5,0.8102,0.8273
+S2-annual,RF,25,5,0.7927,0.806
+S2-seasonal,kNN,25,5,0.8818,0.8913
+S2-seasonal,LogReg,25,5,0.8513,0.8614
+S2-seasonal,RF,25,5,0.8586,0.8678
+AlphaEarth,kNN,25,5,0.9437,0.9424
+AlphaEarth,LogReg,25,5,0.9323,0.9275
+AlphaEarth,RF,25,5,0.915,0.9168
+AlphaEarth + S2-seasonal,kNN,25,5,0.9552,0.9552
+AlphaEarth + S2-seasonal,LogReg,25,5,0.9249,0.9232
+AlphaEarth + S2-seasonal,RF,25,5,0.9093,0.9104
+S2-annual,kNN,25,6,0.8231,0.838
+S2-annual,LogReg,25,6,0.8494,0.8593
+S2-annual,RF,25,6,0.8285,0.8443
+S2-seasonal,kNN,25,6,0.8439,0.8529
+S2-seasonal,LogReg,25,6,0.7897,0.8166
+S2-seasonal,RF,25,6,0.8739,0.8721
+AlphaEarth,kNN,25,6,0.9355,0.9339
+AlphaEarth,LogReg,25,6,0.9212,0.919
+AlphaEarth,RF,25,6,0.9228,0.919
+AlphaEarth + S2-seasonal,kNN,25,6,0.9245,0.9254
+AlphaEarth + S2-seasonal,LogReg,25,6,0.9112,0.9104
+AlphaEarth + S2-seasonal,RF,25,6,0.9192,0.9147
+S2-annual,kNN,25,7,0.8324,0.8529
+S2-annual,LogReg,25,7,0.8239,0.8401
+S2-annual,RF,25,7,0.8344,0.855
+S2-seasonal,kNN,25,7,0.8384,0.8614
+S2-seasonal,LogReg,25,7,0.7998,0.8443
+S2-seasonal,RF,25,7,0.8977,0.8998
+AlphaEarth,kNN,25,7,0.9301,0.9275
+AlphaEarth,LogReg,25,7,0.9399,0.9403
+AlphaEarth,RF,25,7,0.9324,0.9318
+AlphaEarth + S2-seasonal,kNN,25,7,0.9193,0.919
+AlphaEarth + S2-seasonal,LogReg,25,7,0.9331,0.9382
+AlphaEarth + S2-seasonal,RF,25,7,0.932,0.9318
+S2-annual,kNN,25,8,0.8168,0.8316
+S2-annual,LogReg,25,8,0.8453,0.8571
+S2-annual,RF,25,8,0.8043,0.8188
+S2-seasonal,kNN,25,8,0.8579,0.8721
+S2-seasonal,LogReg,25,8,0.8597,0.8763
+S2-seasonal,RF,25,8,0.8709,0.8763
+AlphaEarth,kNN,25,8,0.9275,0.9254
+AlphaEarth,LogReg,25,8,0.9186,0.9147
+AlphaEarth,RF,25,8,0.9234,0.9211
+AlphaEarth + S2-seasonal,kNN,25,8,0.9544,0.9552
+AlphaEarth + S2-seasonal,LogReg,25,8,0.9205,0.9168
+AlphaEarth + S2-seasonal,RF,25,8,0.9261,0.9254
+S2-annual,kNN,25,9,0.833,0.8507
+S2-annual,LogReg,25,9,0.837,0.8529
+S2-annual,RF,25,9,0.8236,0.8358
+S2-seasonal,kNN,25,9,0.9086,0.9083
+S2-seasonal,LogReg,25,9,0.8575,0.8635
+S2-seasonal,RF,25,9,0.8783,0.8827
+AlphaEarth,kNN,25,9,0.9243,0.9232
+AlphaEarth,LogReg,25,9,0.9268,0.9254
+AlphaEarth,RF,25,9,0.9133,0.9147
+AlphaEarth + S2-seasonal,kNN,25,9,0.9228,0.9211
+AlphaEarth + S2-seasonal,LogReg,25,9,0.9199,0.9211
+AlphaEarth + S2-seasonal,RF,25,9,0.9161,0.9211
+S2-annual,kNN,25,10,0.8448,0.8571
+S2-annual,LogReg,25,10,0.8378,0.8507
+S2-annual,RF,25,10,0.8058,0.8209
+S2-seasonal,kNN,25,10,0.8086,0.8316
+S2-seasonal,LogReg,25,10,0.8419,0.8486
+S2-seasonal,RF,25,10,0.9083,0.9062
+AlphaEarth,kNN,25,10,0.9116,0.9126
+AlphaEarth,LogReg,25,10,0.904,0.9019
+AlphaEarth,RF,25,10,0.9035,0.9062
+AlphaEarth + S2-seasonal,kNN,25,10,0.9007,0.9019
+AlphaEarth + S2-seasonal,LogReg,25,10,0.9003,0.8934
+AlphaEarth + S2-seasonal,RF,25,10,0.9038,0.9083
+S2-annual,kNN,50,1,0.8262,0.8401
+S2-annual,LogReg,50,1,0.8634,0.8742
+S2-annual,RF,50,1,0.831,0.8465
+S2-seasonal,kNN,50,1,0.86,0.8699
+S2-seasonal,LogReg,50,1,0.8995,0.9083
+S2-seasonal,RF,50,1,0.8746,0.8763
+AlphaEarth,kNN,50,1,0.949,0.9488
+AlphaEarth,LogReg,50,1,0.9485,0.9467
+AlphaEarth,RF,50,1,0.9256,0.9232
+AlphaEarth + S2-seasonal,kNN,50,1,0.9453,0.9467
+AlphaEarth + S2-seasonal,LogReg,50,1,0.9644,0.9638
+AlphaEarth + S2-seasonal,RF,50,1,0.9322,0.9296
+S2-annual,kNN,50,2,0.833,0.855
+S2-annual,LogReg,50,2,0.8435,0.855
+S2-annual,RF,50,2,0.834,0.8507
+S2-seasonal,kNN,50,2,0.8867,0.8955
+S2-seasonal,LogReg,50,2,0.8508,0.8742
+S2-seasonal,RF,50,2,0.9087,0.9104
+AlphaEarth,kNN,50,2,0.9645,0.9659
+AlphaEarth,LogReg,50,2,0.9376,0.9467
+AlphaEarth,RF,50,2,0.9497,0.951
+AlphaEarth + S2-seasonal,kNN,50,2,0.9515,0.9552
+AlphaEarth + S2-seasonal,LogReg,50,2,0.9296,0.936
+AlphaEarth + S2-seasonal,RF,50,2,0.9572,0.9595
+S2-annual,kNN,50,3,0.8154,0.838
+S2-annual,LogReg,50,3,0.8439,0.8593
+S2-annual,RF,50,3,0.8283,0.8465
+S2-seasonal,kNN,50,3,0.8943,0.8977
+S2-seasonal,LogReg,50,3,0.8697,0.8849
+S2-seasonal,RF,50,3,0.9104,0.9126
+AlphaEarth,kNN,50,3,0.9444,0.9382
+AlphaEarth,LogReg,50,3,0.9127,0.9019
+AlphaEarth,RF,50,3,0.9354,0.9339
+AlphaEarth + S2-seasonal,kNN,50,3,0.9539,0.9488
+AlphaEarth + S2-seasonal,LogReg,50,3,0.9208,0.9083
+AlphaEarth + S2-seasonal,RF,50,3,0.9422,0.9403
+S2-annual,kNN,50,4,0.8531,0.8678
+S2-annual,LogReg,50,4,0.8467,0.8614
+S2-annual,RF,50,4,0.8181,0.8358
+S2-seasonal,kNN,50,4,0.8828,0.8891
+S2-seasonal,LogReg,50,4,0.8474,0.8657
+S2-seasonal,RF,50,4,0.8656,0.8699
+AlphaEarth,kNN,50,4,0.932,0.9318
+AlphaEarth,LogReg,50,4,0.922,0.9211
+AlphaEarth,RF,50,4,0.9214,0.919
+AlphaEarth + S2-seasonal,kNN,50,4,0.9452,0.9467
+AlphaEarth + S2-seasonal,LogReg,50,4,0.9197,0.919
+AlphaEarth + S2-seasonal,RF,50,4,0.9203,0.919
+S2-annual,kNN,50,5,0.8448,0.8635
+S2-annual,LogReg,50,5,0.8537,0.8635
+S2-annual,RF,50,5,0.8514,0.8678
+S2-seasonal,kNN,50,5,0.8944,0.8955
+S2-seasonal,LogReg,50,5,0.8914,0.8977
+S2-seasonal,RF,50,5,0.9031,0.9019
+AlphaEarth,kNN,50,5,0.9313,0.9296
+AlphaEarth,LogReg,50,5,0.9207,0.9147
+AlphaEarth,RF,50,5,0.9247,0.9254
+AlphaEarth + S2-seasonal,kNN,50,5,0.9409,0.9382
+AlphaEarth + S2-seasonal,LogReg,50,5,0.9221,0.9147
+AlphaEarth + S2-seasonal,RF,50,5,0.9328,0.9318
+S2-annual,kNN,50,6,0.8135,0.8337
+S2-annual,LogReg,50,6,0.8598,0.8699
+S2-annual,RF,50,6,0.8231,0.8358
+S2-seasonal,kNN,50,6,0.8599,0.8742
+S2-seasonal,LogReg,50,6,0.8241,0.8486
+S2-seasonal,RF,50,6,0.88,0.8785
+AlphaEarth,kNN,50,6,0.9384,0.936
+AlphaEarth,LogReg,50,6,0.9678,0.9701
+AlphaEarth,RF,50,6,0.9312,0.9296
+AlphaEarth + S2-seasonal,kNN,50,6,0.9432,0.9446
+AlphaEarth + S2-seasonal,LogReg,50,6,0.9504,0.9552
+AlphaEarth + S2-seasonal,RF,50,6,0.9336,0.9318
+S2-annual,kNN,50,7,0.837,0.855
+S2-annual,LogReg,50,7,0.839,0.8486
+S2-annual,RF,50,7,0.8206,0.8358
+S2-seasonal,kNN,50,7,0.898,0.8977
+S2-seasonal,LogReg,50,7,0.8731,0.8721
+S2-seasonal,RF,50,7,0.8647,0.8657
+AlphaEarth,kNN,50,7,0.9295,0.9275
+AlphaEarth,LogReg,50,7,0.9264,0.9232
+AlphaEarth,RF,50,7,0.9189,0.919
+AlphaEarth + S2-seasonal,kNN,50,7,0.9329,0.9296
+AlphaEarth + S2-seasonal,LogReg,50,7,0.9199,0.9168
+AlphaEarth + S2-seasonal,RF,50,7,0.9236,0.9232
+S2-annual,kNN,50,8,0.8464,0.8593
+S2-annual,LogReg,50,8,0.8524,0.8635
+S2-annual,RF,50,8,0.8429,0.8614
+S2-seasonal,kNN,50,8,0.8751,0.8806
+S2-seasonal,LogReg,50,8,0.8751,0.8827
+S2-seasonal,RF,50,8,0.8748,0.8806
+AlphaEarth,kNN,50,8,0.9486,0.9467
+AlphaEarth,LogReg,50,8,0.963,0.9659
+AlphaEarth,RF,50,8,0.9382,0.9382
+AlphaEarth + S2-seasonal,kNN,50,8,0.9552,0.951
+AlphaEarth + S2-seasonal,LogReg,50,8,0.9554,0.9595
+AlphaEarth + S2-seasonal,RF,50,8,0.9369,0.9403
+S2-annual,kNN,50,9,0.8178,0.838
+S2-annual,LogReg,50,9,0.849,0.8614
+S2-annual,RF,50,9,0.8246,0.838
+S2-seasonal,kNN,50,9,0.9015,0.9062
+S2-seasonal,LogReg,50,9,0.8684,0.8785
+S2-seasonal,RF,50,9,0.8996,0.9041
+AlphaEarth,kNN,50,9,0.9205,0.919
+AlphaEarth,LogReg,50,9,0.9281,0.9254
+AlphaEarth,RF,50,9,0.9248,0.9232
+AlphaEarth + S2-seasonal,kNN,50,9,0.9292,0.9275
+AlphaEarth + S2-seasonal,LogReg,50,9,0.9263,0.9232
+AlphaEarth + S2-seasonal,RF,50,9,0.9249,0.9254
+S2-annual,kNN,50,10,0.859,0.8721
+S2-annual,LogReg,50,10,0.8569,0.8678
+S2-annual,RF,50,10,0.8483,0.8657
+S2-seasonal,kNN,50,10,0.8166,0.8401
+S2-seasonal,LogReg,50,10,0.8672,0.8806
+S2-seasonal,RF,50,10,0.9091,0.9083
+AlphaEarth,kNN,50,10,0.9665,0.968
+AlphaEarth,LogReg,50,10,0.9384,0.9446
+AlphaEarth,RF,50,10,0.9519,0.9552
+AlphaEarth + S2-seasonal,kNN,50,10,0.9554,0.9595
+AlphaEarth + S2-seasonal,LogReg,50,10,0.9368,0.9424
+AlphaEarth + S2-seasonal,RF,50,10,0.9581,0.9616
+S2-annual,kNN,100,1,0.8366,0.8507
+S2-annual,LogReg,100,1,0.8482,0.8614
+S2-annual,RF,100,1,0.8443,0.8593
+S2-seasonal,kNN,100,1,0.9119,0.9126
+S2-seasonal,LogReg,100,1,0.9208,0.9232
+S2-seasonal,RF,100,1,0.9091,0.9104
+AlphaEarth,kNN,100,1,0.9422,0.9382
+AlphaEarth,LogReg,100,1,0.914,0.9062
+AlphaEarth,RF,100,1,0.9324,0.9296
+AlphaEarth + S2-seasonal,kNN,100,1,0.9567,0.951
+AlphaEarth + S2-seasonal,LogReg,100,1,0.9276,0.9147
+AlphaEarth + S2-seasonal,RF,100,1,0.9445,0.9424
+S2-annual,kNN,100,2,0.84,0.8571
+S2-annual,LogReg,100,2,0.8469,0.8593
+S2-annual,RF,100,2,0.8352,0.8507
+S2-seasonal,kNN,100,2,0.9067,0.9083
+S2-seasonal,LogReg,100,2,0.9279,0.9296
+S2-seasonal,RF,100,2,0.8934,0.8977
+AlphaEarth,kNN,100,2,0.9306,0.9254
+AlphaEarth,LogReg,100,2,0.9404,0.9382
+AlphaEarth,RF,100,2,0.93,0.9275
+AlphaEarth + S2-seasonal,kNN,100,2,0.9361,0.9318
+AlphaEarth + S2-seasonal,LogReg,100,2,0.9369,0.9339
+AlphaEarth + S2-seasonal,RF,100,2,0.935,0.9339
+S2-annual,kNN,100,3,0.8667,0.8785
+S2-annual,LogReg,100,3,0.8657,0.8763
+S2-annual,RF,100,3,0.8454,0.8593
+S2-seasonal,kNN,100,3,0.8758,0.8849
+S2-seasonal,LogReg,100,3,0.855,0.8699
+S2-seasonal,RF,100,3,0.9189,0.919
+AlphaEarth,kNN,100,3,0.9393,0.9382
+AlphaEarth,LogReg,100,3,0.9512,0.951
+AlphaEarth,RF,100,3,0.9339,0.9318
+AlphaEarth + S2-seasonal,kNN,100,3,0.9433,0.9424
+AlphaEarth + S2-seasonal,LogReg,100,3,0.9412,0.9403
+AlphaEarth + S2-seasonal,RF,100,3,0.9372,0.936
+S2-annual,kNN,100,4,0.8506,0.8699
+S2-annual,LogReg,100,4,0.8537,0.8657
+S2-annual,RF,100,4,0.8428,0.8614
+S2-seasonal,kNN,100,4,0.8792,0.887
+S2-seasonal,LogReg,100,4,0.8286,0.855
+S2-seasonal,RF,100,4,0.9002,0.9041
+AlphaEarth,kNN,100,4,0.923,0.9211
+AlphaEarth,LogReg,100,4,0.9068,0.9083
+AlphaEarth,RF,100,4,0.9185,0.9168
+AlphaEarth + S2-seasonal,kNN,100,4,0.9299,0.9275
+AlphaEarth + S2-seasonal,LogReg,100,4,0.8917,0.8955
+AlphaEarth + S2-seasonal,RF,100,4,0.9185,0.9168
+S2-annual,kNN,100,5,0.8476,0.8657
+S2-annual,LogReg,100,5,0.8622,0.8742
+S2-annual,RF,100,5,0.837,0.855
+S2-seasonal,kNN,100,5,0.9013,0.9019
+S2-seasonal,LogReg,100,5,0.9197,0.9211
+S2-seasonal,RF,100,5,0.9032,0.9041
+AlphaEarth,kNN,100,5,0.9396,0.9382
+AlphaEarth,LogReg,100,5,0.919,0.9168
+AlphaEarth,RF,100,5,0.9319,0.9296
+AlphaEarth + S2-seasonal,kNN,100,5,0.9426,0.9403
+AlphaEarth + S2-seasonal,LogReg,100,5,0.9163,0.9147
+AlphaEarth + S2-seasonal,RF,100,5,0.9294,0.9275
+S2-annual,kNN,100,6,0.8583,0.8742
+S2-annual,LogReg,100,6,0.8544,0.8657
+S2-annual,RF,100,6,0.8424,0.8614
+S2-seasonal,kNN,100,6,0.9074,0.9104
+S2-seasonal,LogReg,100,6,0.9076,0.9104
+S2-seasonal,RF,100,6,0.8981,0.8977
+AlphaEarth,kNN,100,6,0.9412,0.9382
+AlphaEarth,LogReg,100,6,0.9323,0.9296
+AlphaEarth,RF,100,6,0.9292,0.9275
+AlphaEarth + S2-seasonal,kNN,100,6,0.9429,0.9403
+AlphaEarth + S2-seasonal,LogReg,100,6,0.9301,0.9275
+AlphaEarth + S2-seasonal,RF,100,6,0.9315,0.9296
+S2-annual,kNN,100,7,0.8374,0.8529
+S2-annual,LogReg,100,7,0.8513,0.8635
+S2-annual,RF,100,7,0.8273,0.8465
+S2-seasonal,kNN,100,7,0.8966,0.8977
+S2-seasonal,LogReg,100,7,0.8844,0.8955
+S2-seasonal,RF,100,7,0.8941,0.8955
+AlphaEarth,kNN,100,7,0.9374,0.936
+AlphaEarth,LogReg,100,7,0.9301,0.9275
+AlphaEarth,RF,100,7,0.9301,0.9275
+AlphaEarth + S2-seasonal,kNN,100,7,0.9241,0.9211
+AlphaEarth + S2-seasonal,LogReg,100,7,0.9226,0.9211
+AlphaEarth + S2-seasonal,RF,100,7,0.9337,0.9318
+S2-annual,kNN,100,8,0.8636,0.8763
+S2-annual,LogReg,100,8,0.8601,0.8721
+S2-annual,RF,100,8,0.872,0.8849
+S2-seasonal,kNN,100,8,0.9057,0.9083
+S2-seasonal,LogReg,100,8,0.9082,0.9104
+S2-seasonal,RF,100,8,0.9125,0.9147
+AlphaEarth,kNN,100,8,0.9395,0.9339
+AlphaEarth,LogReg,100,8,0.9772,0.9765
+AlphaEarth,RF,100,8,0.9389,0.9382
+AlphaEarth + S2-seasonal,kNN,100,8,0.9507,0.9467
+AlphaEarth + S2-seasonal,LogReg,100,8,0.9726,0.9723
+AlphaEarth + S2-seasonal,RF,100,8,0.9505,0.951
+S2-annual,kNN,100,9,0.8505,0.8678
+S2-annual,LogReg,100,9,0.859,0.8699
+S2-annual,RF,100,9,0.8291,0.8443
+S2-seasonal,kNN,100,9,0.9037,0.9062
+S2-seasonal,LogReg,100,9,0.8889,0.8977
+S2-seasonal,RF,100,9,0.8843,0.8891
+AlphaEarth,kNN,100,9,0.9402,0.9382
+AlphaEarth,LogReg,100,9,0.9321,0.9296
+AlphaEarth,RF,100,9,0.9318,0.9318
+AlphaEarth + S2-seasonal,kNN,100,9,0.9372,0.936
+AlphaEarth + S2-seasonal,LogReg,100,9,0.9343,0.9318
+AlphaEarth + S2-seasonal,RF,100,9,0.9312,0.9296
+S2-annual,kNN,100,10,0.8592,0.8763
+S2-annual,LogReg,100,10,0.8607,0.8721
+S2-annual,RF,100,10,0.8366,0.8507
+S2-seasonal,kNN,100,10,0.9015,0.9083
+S2-seasonal,LogReg,100,10,0.913,0.919
+S2-seasonal,RF,100,10,0.8997,0.9041
+AlphaEarth,kNN,100,10,0.9286,0.9232
+AlphaEarth,LogReg,100,10,0.9647,0.9638
+AlphaEarth,RF,100,10,0.9364,0.936
+AlphaEarth + S2-seasonal,kNN,100,10,0.9558,0.951
+AlphaEarth + S2-seasonal,LogReg,100,10,0.9691,0.968
+AlphaEarth + S2-seasonal,RF,100,10,0.949,0.9531
+S2-annual,kNN,250,1,0.8439,0.8593
+S2-annual,LogReg,250,1,0.8566,0.8678
+S2-annual,RF,250,1,0.8431,0.8593
+S2-seasonal,kNN,250,1,0.8999,0.9062
+S2-seasonal,LogReg,250,1,0.9147,0.9168
+S2-seasonal,RF,250,1,0.8996,0.9019
+AlphaEarth,kNN,250,1,0.9317,0.9296
+AlphaEarth,LogReg,250,1,0.94,0.9382
+AlphaEarth,RF,250,1,0.9317,0.9296
+AlphaEarth + S2-seasonal,kNN,250,1,0.9299,0.9275
+AlphaEarth + S2-seasonal,LogReg,250,1,0.93,0.9275
+AlphaEarth + S2-seasonal,RF,250,1,0.9317,0.9296
+S2-annual,kNN,250,2,0.8441,0.8593
+S2-annual,LogReg,250,2,0.8586,0.8699
+S2-annual,RF,250,2,0.8408,0.8571
+S2-seasonal,kNN,250,2,0.911,0.9126
+S2-seasonal,LogReg,250,2,0.9222,0.9232
+S2-seasonal,RF,250,2,0.9166,0.9168
+AlphaEarth,kNN,250,2,0.9401,0.9382
+AlphaEarth,LogReg,250,2,0.9377,0.9339
+AlphaEarth,RF,250,2,0.9418,0.9382
+AlphaEarth + S2-seasonal,kNN,250,2,0.9582,0.9574
+AlphaEarth + S2-seasonal,LogReg,250,2,0.9418,0.9339
+AlphaEarth + S2-seasonal,RF,250,2,0.9376,0.936
+S2-annual,kNN,250,3,0.8421,0.8593
+S2-annual,LogReg,250,3,0.8537,0.8657
+S2-annual,RF,250,3,0.8432,0.8593
+S2-seasonal,kNN,250,3,0.9073,0.9083
+S2-seasonal,LogReg,250,3,0.9225,0.9254
+S2-seasonal,RF,250,3,0.9024,0.9019
+AlphaEarth,kNN,250,3,0.9394,0.936
+AlphaEarth,LogReg,250,3,0.9158,0.9104
+AlphaEarth,RF,250,3,0.9331,0.9296
+AlphaEarth + S2-seasonal,kNN,250,3,0.9424,0.9403
+AlphaEarth + S2-seasonal,LogReg,250,3,0.9227,0.9168
+AlphaEarth + S2-seasonal,RF,250,3,0.9393,0.9382
+S2-annual,kNN,250,4,0.8518,0.8657
+S2-annual,LogReg,250,4,0.8578,0.8699
+S2-annual,RF,250,4,0.8464,0.8635
+S2-seasonal,kNN,250,4,0.902,0.9041
+S2-seasonal,LogReg,250,4,0.9247,0.9254
+S2-seasonal,RF,250,4,0.9057,0.9104
+AlphaEarth,kNN,250,4,0.9745,0.9744
+AlphaEarth,LogReg,250,4,0.9563,0.9552
+AlphaEarth,RF,250,4,0.936,0.9339
+AlphaEarth + S2-seasonal,kNN,250,4,0.9746,0.9744
+AlphaEarth + S2-seasonal,LogReg,250,4,0.9476,0.9446
+AlphaEarth + S2-seasonal,RF,250,4,0.9526,0.951
+S2-annual,kNN,250,5,0.8495,0.8678
+S2-annual,LogReg,250,5,0.8627,0.8742
+S2-annual,RF,250,5,0.8285,0.8465
+S2-seasonal,kNN,250,5,0.9101,0.9126
+S2-seasonal,LogReg,250,5,0.9191,0.9232
+S2-seasonal,RF,250,5,0.9035,0.9041
+AlphaEarth,kNN,250,5,0.9296,0.9275
+AlphaEarth,LogReg,250,5,0.9208,0.919
+AlphaEarth,RF,250,5,0.936,0.9339
+AlphaEarth + S2-seasonal,kNN,250,5,0.93,0.9275
+AlphaEarth + S2-seasonal,LogReg,250,5,0.9221,0.919
+AlphaEarth + S2-seasonal,RF,250,5,0.9309,0.9296
+S2-annual,kNN,250,6,0.8439,0.8593
+S2-annual,LogReg,250,6,0.8633,0.8742
+S2-annual,RF,250,6,0.8455,0.8614
+S2-seasonal,kNN,250,6,0.9061,0.9104
+S2-seasonal,LogReg,250,6,0.9023,0.9083
+S2-seasonal,RF,250,6,0.9109,0.9126
+AlphaEarth,kNN,250,6,0.9722,0.9723
+AlphaEarth,LogReg,250,6,0.9636,0.9616
+AlphaEarth,RF,250,6,0.9476,0.9467
+AlphaEarth + S2-seasonal,kNN,250,6,0.9659,0.9659
+AlphaEarth + S2-seasonal,LogReg,250,6,0.9578,0.9552
+AlphaEarth + S2-seasonal,RF,250,6,0.9578,0.9574
+S2-annual,kNN,250,7,0.8638,0.8763
+S2-annual,LogReg,250,7,0.8581,0.8699
+S2-annual,RF,250,7,0.8465,0.8635
+S2-seasonal,kNN,250,7,0.9252,0.9275
+S2-seasonal,LogReg,250,7,0.9105,0.9126
+S2-seasonal,RF,250,7,0.9183,0.9232
+AlphaEarth,kNN,250,7,0.9361,0.9339
+AlphaEarth,LogReg,250,7,0.9525,0.951
+AlphaEarth,RF,250,7,0.9436,0.9424
+AlphaEarth + S2-seasonal,kNN,250,7,0.9518,0.951
+AlphaEarth + S2-seasonal,LogReg,250,7,0.9473,0.9446
+AlphaEarth + S2-seasonal,RF,250,7,0.9437,0.9424
+S2-annual,kNN,250,8,0.8662,0.8806
+S2-annual,LogReg,250,8,0.86,0.8699
+S2-annual,RF,250,8,0.8566,0.8721
+S2-seasonal,kNN,250,8,0.9117,0.9126
+S2-seasonal,LogReg,250,8,0.9144,0.9168
+S2-seasonal,RF,250,8,0.9108,0.9104
+AlphaEarth,kNN,250,8,0.94,0.9382
+AlphaEarth,LogReg,250,8,0.948,0.9467
+AlphaEarth,RF,250,8,0.9398,0.9382
+AlphaEarth + S2-seasonal,kNN,250,8,0.9561,0.9552
+AlphaEarth + S2-seasonal,LogReg,250,8,0.9441,0.9424
+AlphaEarth + S2-seasonal,RF,250,8,0.9397,0.9382
+S2-annual,kNN,250,9,0.8262,0.8443
+S2-annual,LogReg,250,9,0.8563,0.8678
+S2-annual,RF,250,9,0.8405,0.855
+S2-seasonal,kNN,250,9,0.9074,0.9104
+S2-seasonal,LogReg,250,9,0.9028,0.9062
+S2-seasonal,RF,250,9,0.8936,0.8977
+AlphaEarth,kNN,250,9,0.9362,0.9339
+AlphaEarth,LogReg,250,9,0.9286,0.9254
+AlphaEarth,RF,250,9,0.9314,0.9296
+AlphaEarth + S2-seasonal,kNN,250,9,0.9581,0.9574
+AlphaEarth + S2-seasonal,LogReg,250,9,0.9281,0.9232
+AlphaEarth + S2-seasonal,RF,250,9,0.9357,0.9339
+S2-annual,kNN,250,10,0.8563,0.8721
+S2-annual,LogReg,250,10,0.8629,0.8742
+S2-annual,RF,250,10,0.8547,0.8699
+S2-seasonal,kNN,250,10,0.9144,0.9168
+S2-seasonal,LogReg,250,10,0.9195,0.9211
+S2-seasonal,RF,250,10,0.9019,0.9041
+AlphaEarth,kNN,250,10,0.9298,0.9275
+AlphaEarth,LogReg,250,10,0.9248,0.9211
+AlphaEarth,RF,250,10,0.9337,0.9318
+AlphaEarth + S2-seasonal,kNN,250,10,0.9343,0.9318
+AlphaEarth + S2-seasonal,LogReg,250,10,0.9205,0.9168
+AlphaEarth + S2-seasonal,RF,250,10,0.9317,0.9296
+S2-annual,kNN,all,1,0.8433,0.8593
+S2-annual,LogReg,all,1,0.8591,0.8699
+S2-annual,RF,all,1,0.846,0.8614
+S2-seasonal,kNN,all,1,0.9122,0.9147
+S2-seasonal,LogReg,all,1,0.9181,0.9211
+S2-seasonal,RF,all,1,0.9077,0.9104
+AlphaEarth,kNN,all,1,0.9471,0.9467
+AlphaEarth,LogReg,all,1,0.9431,0.9403
+AlphaEarth,RF,all,1,0.9321,0.9296
+AlphaEarth + S2-seasonal,kNN,all,1,0.9394,0.9382
+AlphaEarth + S2-seasonal,LogReg,all,1,0.9384,0.936
+AlphaEarth + S2-seasonal,RF,all,1,0.9396,0.9382

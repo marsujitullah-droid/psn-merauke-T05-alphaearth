@@ -1,0 +1,9 @@
+feature_set,class,precision,recall,F1,n
+AlphaEarth,Forest,0.8758,0.804,0.8384,500
+AlphaEarth,Savanna / shrub / grass,0.6833,0.384,0.4917,500
+AlphaEarth,Wetland,0.4954,0.752,0.5973,500
+AlphaEarth,Cleared land,0.9182,0.92,0.9191,500
+S2-seasonal,Forest,0.7282,0.552,0.628,500
+S2-seasonal,Savanna / shrub / grass,0.7596,0.512,0.6117,500
+S2-seasonal,Wetland,0.4795,0.632,0.5453,500
+S2-seasonal,Cleared land,0.6672,0.834,0.7413,500

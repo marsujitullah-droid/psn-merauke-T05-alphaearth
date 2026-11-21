@@ -1,0 +1,7 @@
+algorithm,feature_set,F1_AE_n10,n_per_class,label_ratio
+kNN,S2-annual,0.9163,> 250,> 25
+kNN,S2-seasonal,0.9163,> 250,> 25
+LogReg,S2-annual,0.9186,> 250,> 25
+LogReg,S2-seasonal,0.9186,> 250,> 25
+RF,S2-annual,0.9121,> 250,> 25
+RF,S2-seasonal,0.9121,> 250,> 25

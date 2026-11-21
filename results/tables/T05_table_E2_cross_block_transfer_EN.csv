@@ -1,0 +1,25 @@
+direction,feature_set,algorithm,F1_within_block,F1_transfer,drop
+C → D,S2-annual,kNN,0.8433,0.45,0.3933
+C → D,S2-annual,LogReg,0.8591,0.4916,0.3675
+C → D,S2-annual,RF,0.846,0.497,0.3491
+C → D,S2-seasonal,kNN,0.9122,0.6408,0.2714
+C → D,S2-seasonal,LogReg,0.9181,0.6942,0.2239
+C → D,S2-seasonal,RF,0.9077,0.6316,0.2762
+C → D,AlphaEarth,kNN,0.9471,0.7961,0.151
+C → D,AlphaEarth,LogReg,0.9431,0.5862,0.3569
+C → D,AlphaEarth,RF,0.9321,0.7116,0.2204
+C → D,AlphaEarth + S2-seasonal,kNN,0.9394,0.7782,0.1612
+C → D,AlphaEarth + S2-seasonal,LogReg,0.9384,0.6277,0.3107
+C → D,AlphaEarth + S2-seasonal,RF,0.9396,0.6991,0.2404
+D → C,S2-annual,kNN,0.6954,0.395,0.3004
+D → C,S2-annual,LogReg,0.6956,0.4518,0.2438
+D → C,S2-annual,RF,0.7504,0.4019,0.3485
+D → C,S2-seasonal,kNN,0.749,0.6197,0.1294
+D → C,S2-seasonal,LogReg,0.7429,0.6817,0.0612
+D → C,S2-seasonal,RF,0.7882,0.6771,0.1111
+D → C,AlphaEarth,kNN,0.8864,0.8172,0.0692
+D → C,AlphaEarth,LogReg,0.9177,0.7593,0.1584
+D → C,AlphaEarth,RF,0.8972,0.8846,0.0126
+D → C,AlphaEarth + S2-seasonal,kNN,0.8881,0.8036,0.0844
+D → C,AlphaEarth + S2-seasonal,LogReg,0.9107,0.654,0.2567
+D → C,AlphaEarth + S2-seasonal,RF,0.9034,0.8229,0.0805

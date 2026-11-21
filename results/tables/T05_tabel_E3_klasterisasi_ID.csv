@@ -1,0 +1,5 @@
+set_fitur,ARI,ARI_sd,NMI,NMI_sd
+S2-tahunan,0.2863,0.0017,0.3064,0.0045
+S2-musiman,0.327,0.0003,0.3705,0.0003
+AlphaEarth,0.5006,0.0,0.5826,0.0
+AlphaEarth + S2-musiman,0.4732,0.0,0.5387,0.0

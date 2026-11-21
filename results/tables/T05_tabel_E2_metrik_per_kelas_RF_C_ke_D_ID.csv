@@ -1,0 +1,9 @@
+set_fitur,kelas,presisi,recall,F1,n
+AlphaEarth,Hutan,0.8758,0.804,0.8384,500
+AlphaEarth,Savana / semak / rumput,0.6833,0.384,0.4917,500
+AlphaEarth,Lahan basah,0.4954,0.752,0.5973,500
+AlphaEarth,Lahan dibuka,0.9182,0.92,0.9191,500
+S2-musiman,Hutan,0.7282,0.552,0.628,500
+S2-musiman,Savana / semak / rumput,0.7596,0.512,0.6117,500
+S2-musiman,Lahan basah,0.4795,0.632,0.5453,500
+S2-musiman,Lahan dibuka,0.6672,0.834,0.7413,500

@@ -1,0 +1,7 @@
+algoritma,set_fitur,F1_AE_n10,n_per_kelas,rasio_label
+kNN,S2-tahunan,0.9163,> 250,> 25
+kNN,S2-musiman,0.9163,> 250,> 25
+LogReg,S2-tahunan,0.9186,> 250,> 25
+LogReg,S2-musiman,0.9186,> 250,> 25
+RF,S2-tahunan,0.9121,> 250,> 25
+RF,S2-musiman,0.9121,> 250,> 25

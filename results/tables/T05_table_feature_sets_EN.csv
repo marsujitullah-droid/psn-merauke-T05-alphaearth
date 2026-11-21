@@ -1,0 +1,5 @@
+feature_set,n_features
+S2-annual,16
+S2-seasonal,32
+AlphaEarth,64
+AlphaEarth + S2-seasonal,96

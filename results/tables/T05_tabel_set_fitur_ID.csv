@@ -1,0 +1,5 @@
+set_fitur,jumlah_fitur
+S2-tahunan,16
+S2-musiman,32
+AlphaEarth,64
+AlphaEarth + S2-musiman,96

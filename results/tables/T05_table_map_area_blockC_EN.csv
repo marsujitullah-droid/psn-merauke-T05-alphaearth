@@ -1,0 +1,9 @@
+feature_set,class,mapped_area_ha
+S2-seasonal,Forest,28883.0
+S2-seasonal,Savanna / shrub / grass,2533.0
+S2-seasonal,Wetland,2183.0
+S2-seasonal,Cleared land,5522.0
+AlphaEarth,Forest,31023.0
+AlphaEarth,Savanna / shrub / grass,1668.0
+AlphaEarth,Wetland,1271.0
+AlphaEarth,Cleared land,6069.0
