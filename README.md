@@ -1,5 +1,7 @@
 # AlphaEarth Embeddings vs Sentinel-2 Spectral Features in the Merauke PSN Area (T05)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24421114.svg)](https://doi.org/10.5281/zenodo.24421114)
+
 Code and data for the study *"AlphaEarth Foundation-Model Embeddings versus Sentinel-2 Spectral Features for Land-Cover Mapping with Limited Labels and Cross-Region Transfer in the Merauke National Strategic Project, Indonesia"*.
 
 > **Ringkasan (ID):** Repositori ini berisi notebook, dataset sampel, dan tabel hasil untuk perbandingan embedding AlphaEarth Foundations dengan fitur Sentinel-2 (tahunan dan musiman) pada pemetaan tutupan lahan dengan label terbatas, transfer antarblok, dan klasterisasi tanpa label di Blok C dan D kawasan PSN Merauke. Semua tabel dan gambar tersedia dalam versi Indonesia (_ID) dan Inggris (_EN).
